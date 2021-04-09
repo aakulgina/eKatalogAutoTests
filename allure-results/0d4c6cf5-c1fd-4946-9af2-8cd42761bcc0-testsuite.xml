@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617954931016' stop='1617954956197'>
+    <name>Search for a product by manufacturer + function and add it to favs</name>
+    <title>Search for a product by manufacturer + function and add it to favs</title>
+    <test-cases>
+        <test-case start='1617954931016' status='passed' stop='1617954948114'>
+            <name>Open nav section and search for a product</name>
+            <title>Open nav section and search for a product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='79052dcc-fbf4-48e4-989f-af368f94c33e-attachment.png' type='image/png' size='681017'/>
+            </attachments>
+        </test-case>
+        <test-case start='1617954948115' status='passed' stop='1617954953356'>
+            <name>Open product's card and add it to favs</name>
+            <title>Open product's card and add it to favs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8ebf19c5-148e-4d83-95af-d7e1b8eaef0d-attachment.png' type='image/png' size='238900'/>
+            </attachments>
+        </test-case>
+        <test-case start='1617954953357' status='passed' stop='1617954955095'>
+            <name>Open user profile and check if the product is present in favs</name>
+            <title>Open user profile and check if the product is present in favs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c78ea08d-00e5-4b84-b9fe-c8477f42fbe4-attachment.png' type='image/png' size='354770'/>
+            </attachments>
+        </test-case>
+        <test-case start='1617954955096' status='passed' stop='1617954956196'>
+            <name>Open user profile and check if the product is present in history</name>
+            <title>Open user profile and check if the product is present in history</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='de9825a7-0928-4dbc-9c5c-3633389939fe-attachment.png' type='image/png' size='125373'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

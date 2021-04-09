@@ -1,0 +1,14 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"commonjs": true
+	},
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"extends": ["./eslint/ts.json", "prettier"],
+	"rules": {
+		"no-console": "warn"
+	}
+}

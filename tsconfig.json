@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["es6"],
+    "allowJs": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "Node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "strict": true,
+    "outDir": "output_js",
+    "types": ["jasmine", "node"]
+  },
+  "exclude": ["node_modules/*", "output_js/*"]
+}

@@ -1,0 +1,117 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617921331229' stop='1617921345717'>
+    <name>Search for a product by manufacturer + function and add it to favs</name>
+    <title>Search for a product by manufacturer + function and add it to favs</title>
+    <test-cases>
+        <test-case start='1617921331229' status='failed' stop='1617921338015'>
+            <name>Open nav section and search for a product</name>
+            <title>Open nav section and search for a product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e3b6c7f4-730a-466c-a768-03fde44e06cd-attachment.png' type='image/png' size='813417'/>
+            </attachments>
+            <failure>
+                <message>Failed: element click intercepted: Element &lt;span id="br_all" class="rm-brands-plus" jtype="click" jtoggle="li_br21867,li_br24729,li_br17627,li_br31087,li_br2908,li_br6767,li_br24341,li_br1612,li_br7786,li_br3683,li_br2303,li_br36,li_br3907,li_br3390,li_br9160,li_br21161,li_br434,li_br494,li_br46,li_br2316,li_br6703,li_br647,li_br34684,li_br3398,li_br94,li_br34727,li_br321,li_br731,li_br1300,li_br3532,li_br10297,li_br10299,li_br14057,li_br541,li_br3127,li_br180,li_br24144,li_br35070,li_br6284,li_br2260,li_br322,li_br24744,li_br24731,li_br30124,li_br8550,li_br147,li_br2057,li_br9066,li_br30304,li_br16253,li_br20325,li_br4642,li_br25339,li_br985,li_br10855,li_br75,li_br3917,li_br24742,li_br14422,li_br14424,li_br2291,br_all,br_best">...&lt;/span> is not clickable at point (814, 506). Other element would receive the click: &lt;li id="bar_bm_marked" class="goods-bar-section">...&lt;/li>
+                  (Session info: chrome=89.0.4389.114)
+                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+                System info: host: 'DESKTOP-PJDVL0N', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+                Driver info: driver.version: unknown</message>
+                <stack-trace>WebDriverError: element click intercepted: Element &lt;span id="br_all" class="rm-brands-plus" jtype="click" jtoggle="li_br21867,li_br24729,li_br17627,li_br31087,li_br2908,li_br6767,li_br24341,li_br1612,li_br7786,li_br3683,li_br2303,li_br36,li_br3907,li_br3390,li_br9160,li_br21161,li_br434,li_br494,li_br46,li_br2316,li_br6703,li_br647,li_br34684,li_br3398,li_br94,li_br34727,li_br321,li_br731,li_br1300,li_br3532,li_br10297,li_br10299,li_br14057,li_br541,li_br3127,li_br180,li_br24144,li_br35070,li_br6284,li_br2260,li_br322,li_br24744,li_br24731,li_br30124,li_br8550,li_br147,li_br2057,li_br9066,li_br30304,li_br16253,li_br20325,li_br4642,li_br25339,li_br985,li_br10855,li_br75,li_br3917,li_br24742,li_br14422,li_br14424,li_br2291,br_all,br_best">...&lt;/span> is not clickable at point (814, 506). Other element would receive the click: &lt;li id="bar_bm_marked" class="goods-bar-section">...&lt;/li>
+                  (Session info: chrome=89.0.4389.114)
+                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+                System info: host: 'DESKTOP-PJDVL0N', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+                Driver info: driver.version: unknown
+                    at Object.checkLegacyResponse (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\protractor\built\element.js:831:22)
+                    at C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:61:87
+                    at step (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:33:23)
+                    at Object.next (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:14:53)
+                    at fulfilled (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:45:5)
+                    at addSpecsToSuite (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:44:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+                    at Module.load (internal/modules/cjs/loader.js:986:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:879:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617921338020' status='failed' stop='1617921343230'>
+            <name>Open product's card and add it to favs</name>
+            <title>Open product's card and add it to favs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5d19e066-dc8a-48c6-bc6b-c32a562c47b6-attachment.png' type='image/png' size='157820'/>
+            </attachments>
+            <failure>
+                <message>Failed: element click intercepted: Element &lt;div class="ib">...&lt;/div> is not clickable at point (648, 503). Other element would receive the click: &lt;span id="name_bm_compared">...&lt;/span>
+                  (Session info: chrome=89.0.4389.114)
+                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+                System info: host: 'DESKTOP-PJDVL0N', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+                Driver info: driver.version: unknown</message>
+                <stack-trace>WebDriverError: element click intercepted: Element &lt;div class="ib">...&lt;/div> is not clickable at point (648, 503). Other element would receive the click: &lt;span id="name_bm_compared">...&lt;/span>
+                  (Session info: chrome=89.0.4389.114)
+                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+                System info: host: 'DESKTOP-PJDVL0N', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+                Driver info: driver.version: unknown
+                    at Object.checkLegacyResponse (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\protractor\built\element.js:831:22)
+                    at C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:120:56
+                    at step (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:33:23)
+                    at Object.next (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:14:53)
+                    at fulfilled (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:104:5)
+                    at addSpecsToSuite (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchAndFavTest.js:44:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+                    at Module.load (internal/modules/cjs/loader.js:986:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:879:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617921343233' status='passed' stop='1617921344621'>
+            <name>Open user profile and check if the product is present in favs</name>
+            <title>Open user profile and check if the product is present in favs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6ac38671-c6dc-49d1-b3ea-464052395bc4-attachment.png' type='image/png' size='304963'/>
+            </attachments>
+        </test-case>
+        <test-case start='1617921344622' status='passed' stop='1617921345716'>
+            <name>Open user profile and check if the product is present in history</name>
+            <title>Open user profile and check if the product is present in history</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2b4fd798-cb23-4232-a487-872e93d76129-attachment.png' type='image/png' size='125379'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

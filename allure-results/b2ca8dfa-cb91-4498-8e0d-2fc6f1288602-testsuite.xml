@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617921345733' stop='1617921361698'>
+    <name>Search for a product by max price</name>
+    <title>Search for a product by max price</title>
+    <test-cases>
+        <test-case start='1617921345734' status='failed' stop='1617921351381'>
+            <name>Open nav section and make a search query with max price 1000</name>
+            <title>Open nav section and make a search query with max price 1000</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c5628ea1-5049-4d15-bd70-9c2396e40611-attachment.png' type='image/png' size='125379'/>
+            </attachments>
+            <failure>
+                <message>Expected 1 to be 0.</message>
+                <stack-trace>Error: Failed expectation
+                    at C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchPriceRangeTest.js:74:54
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617921351382' status='failed' stop='1617921356525'>
+            <name>Open nav section and make a search query with max price 2000</name>
+            <title>Open nav section and make a search query with max price 2000</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c4886967-ea85-4c85-acdf-51501939ec4b-attachment.png' type='image/png' size='102525'/>
+            </attachments>
+            <failure>
+                <message>Expected 1 to be 0.</message>
+                <stack-trace>Error: Failed expectation
+                    at C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchPriceRangeTest.js:74:54
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617921356527' status='failed' stop='1617921361697'>
+            <name>Open nav section and make a search query with max price 3000</name>
+            <title>Open nav section and make a search query with max price 3000</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='70ba4d88-a241-419a-8324-1dc3a571f6d2-attachment.png' type='image/png' size='102935'/>
+            </attachments>
+            <failure>
+                <message>Expected 5999 to be less than or equal 3000.</message>
+                <stack-trace>Error: Failed expectation
+                    at C:\Users\Анастасия\Desktop\eKatalogAutoTests\output_js\tests\searchPriceRangeTest.js:82:49
+                    at C:\Users\Анастасия\Desktop\eKatalogAutoTests\node_modules\protractor\built\element.js:804:32
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
